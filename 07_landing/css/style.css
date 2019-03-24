@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body {
+	font-family: 'Noto Serif', serif;
+}
+
+header {
+	height: 80px;
+	line-height: 80px;
+	background-color: #B7282C;
+	color: #F6F6F6;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header .logo-text {
+	text-transform: uppercase;
+	color: #F6F6F6;
+}
+
+.main-image {
+	background-image: url(../img/cinema.png);
+	height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #F6F6F6;
+}
+
+.links {
+	background-color: #B7282C;
+	color: #F6F6F6;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.links a {
+	color: #F6F6F6;
+	text-decoration: none;
+}
+
+.main-text {
+	background-color: #F6F6F6;
+	padding: 15px 10px;
+}
+
+.main-text h1 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.main-text p {
+	line-height: 18px;
+}
+
+.main-text a {
+	color: #000;
+}
+
+footer {
+	background-color: #B7282C;
+	color: #F6F6F6;
+	height: 80px;
+    line-height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .copyright {
+	text-transform: uppercase;
+}

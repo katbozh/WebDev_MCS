@@ -1,0 +1,132 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&subset=cyrillic');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	padding: 25px 15px;
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+header .logo {
+	font-weight: 700;
+}
+
+header a {
+	color: #000;
+	text-decoration: none;
+}
+
+main {
+	padding-top: 60px;
+}
+
+.main-image {
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+	background-position: center -22px;
+	height: 500px;
+	display: flex;
+}
+
+.main-image .name {
+	font-weight: 900;
+	font-size: 50px;
+	color: #fff;
+	margin: auto;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	padding: 50px;
+}
+
+.main-text {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.content {
+	width: 70%;
+	padding: 15px;
+}
+
+.icons {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.icon {
+	width: 30%;
+}
+
+.icon .name {
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.icon img {
+	width: 100%;
+	height: auto;
+}
+
+.about {	
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+.about .name {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.blockquote {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.blockquote img {
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+}
+
+.blockquote .name {
+	text-align: right;
+	margin-top: 20px;
+}
+
+blockquote {
+	flex-grow: 1;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 25px 15px;
+	font-weight: 700;
+}

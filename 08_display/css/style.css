@@ -1,0 +1,59 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+header { 
+	width: 100%;
+	background-color: #aad6fd;
+	color: #fff;
+	padding: 25px 15px;
+	position: fixed;
+}
+
+.logo, .copyright {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+main {
+	padding-top: 90px;
+	padding-bottom: 25px;
+}
+
+.columns {
+	width: 900px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.column {
+	width: 282px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-right: 20px;
+	box-shadow: 1px 2px 5px #c5ccd2;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+
+.column.third {
+	margin-right: 0;
+}
+
+.column .title {
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+footer {
+	background-color: #aad6fd;
+	color: #fff;
+	padding: 25px 15px;
+}

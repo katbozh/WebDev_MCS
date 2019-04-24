@@ -1,0 +1,58 @@
+@import url(reset.css);
+
+header, footer {
+	padding: 10px 15px;
+	background-color: beige;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.quotes {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin:auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	align-items: flex-start;
+}
+
+.quote {
+	width: calc((100% - 60px)/3);
+	background-color: beige;
+}
+
+.image {
+	padding-bottom: 100%;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.ekzuperi {
+	background-image: url(../img/ekzuperi.jpg);
+}
+
+.tven {
+	background-image: url(../img/tven.jpg);
+}
+
+.shakespeare {
+	background-image: url(../img/shakespeare.jpg);
+}
+
+.phrase {
+	padding: 0 15px 15px;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.name {
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
